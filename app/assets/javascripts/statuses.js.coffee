@@ -5,5 +5,4 @@
 
 $ (args) ->
 	$('.status').hover (event) ->
-		console.log("Hover triggered")
-		$(this).toggleClass("hover")
+			$(this).toggleClass("hover")
